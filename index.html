@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Катинський І. О. ІМ-23</title>
+  </head>
+  <body>
+    <div id="leftPane">
+      <div id="formBlock">
+        <h2>Форма для заповнення</h2>
+        <form id="mainForm" action="index.html">
+          <input type="text" name="full-name" placeholder="ПІБ" />
+          <input type="number" name="variant" placeholder="Варіант" />
+          <input type="text" name="phone-number" placeholder="Телефон" />
+          <input type="text" name="faculty" placeholder="Факультет" />
+          <input type="text" name="address" placeholder="Адреса" />
+          <button id="submitButton" type="submit">Підтвердити</button>
+        </form>
+      </div>
+    </div>
+    <div id="rightPane">
+      <table id="numberTable"></table>
+      <input type="color" id="colorPicker" />
+    </div>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <h2>Введені дані</h2>
+        <p id="modalData"></p>
+      </div>
+    </div>
+  </body>
+</html>
